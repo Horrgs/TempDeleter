@@ -13,8 +13,9 @@ public class TempWindow extends JFrame {
     private JButton delete;
     private JTextArea deleted;
     public TempWindow() {
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(300, 100);
-        setTitle("TempDeleter v1.0 by Horrgs");
+        setTitle("TempDeleter v1.1 by Horrgs");
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
         delete = new JButton("Delete");
