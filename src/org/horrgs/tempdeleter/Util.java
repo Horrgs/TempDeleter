@@ -14,5 +14,6 @@ public class Util {
                 deleteDir(new File(dir, children[x]));
             }
         }
+        dir.delete();
     }
 }
