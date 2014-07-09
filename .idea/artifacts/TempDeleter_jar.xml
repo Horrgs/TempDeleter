@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="TempDeleter:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/TempDeleter_jar</output-path>
-    <root id="archive" name="TempDeleter.jar">
-      <element id="module-output" name="TempDeleter" />
-    </root>
-  </artifact>
-</component>
